@@ -9,7 +9,9 @@ Each time you can either climb 1 or 2 steps. In how many distinct ways can you c
  * @return {number}
  */
 var climbStairs = function(n) {
-};
+  if (n===0) return 1
+  if (n<=3) return n
+}
 
 /*
 1 = [1]         = 1
